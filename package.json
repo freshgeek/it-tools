@@ -20,7 +20,7 @@
     "url": "https://github.com/CorentinTh/it-tools"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && NODE_OPTIONS=--max_old_space_size=4096 vite build",
     "preview": "vite preview --port 5050",
     "test": "npm run test:unit",
@@ -65,6 +65,7 @@
     "iarna-toml-esm": "^3.0.5",
     "ibantools": "^4.3.3",
     "json5": "^2.2.3",
+    "jsonpath-plus": "^9.0.0",
     "jwt-decode": "^3.1.2",
     "libphonenumber-js": "^1.10.28",
     "lodash": "^4.17.21",

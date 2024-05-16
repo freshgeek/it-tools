@@ -103,7 +103,9 @@ tools:
   json-to-csv:
     title: JSON to CSV
     description: Convert JSON to CSV with automatic header detection.
-
+  json-path:
+    title: JSON path extractor
+    description: JSON path extractor。
   camera-recorder:
     title: Camera recorder
     description: Take a picture or record a video from your webcam or camera.

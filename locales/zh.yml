@@ -327,7 +327,9 @@ tools:
   json-minify:
     title: JSON 压缩
     description: 通过删除不必要的空白来缩小和压缩JSON。
-
+  json-path:
+    title: JSON 路径提取
+    description: 通过路径提取json中的值，参考 https://npmmirror.com/package/jsonpath-plus#h-esm-bundlers。
   ulid-generator:
     title: ULID 生成器
     description: 生成随机的通用唯一词典可排序标识符（ULID）。
