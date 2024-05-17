@@ -7,8 +7,8 @@ import { jsonExtra } from '@/tools/json-path/json-path.service';
 
 const inputElement = ref<HTMLElement>();
 
-const rawJson = useStorage('json-path:raw-json', null);
-const extraPath = useStorage('json-path:extra-path', null);
+const rawJson = useStorage('json-path:raw-json', '');
+const extraPath = useStorage('json-path:extra-path', '');
 
 const result = computed(() => withDefaultOnError(() => jsonExtra(rawJson.value, extraPath.value), ''));
 
